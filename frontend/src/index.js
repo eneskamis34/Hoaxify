@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import UserSignUpPage from './UserSignUpPage';
+import UserSignUpPage from './pages/UserSignUpPage';
 
 ReactDOM.render(
   <React.StrictMode>
