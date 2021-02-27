@@ -1,0 +1,1 @@
+hoaxify.constraint.username.NotNull.message = "Username can not be null."

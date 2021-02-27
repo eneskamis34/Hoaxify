@@ -18,17 +18,17 @@ public class User {
 	@GeneratedValue //autoincrement yapmak için.
 	private long id;
 	
-	@NotNull
+	@NotNull(message="{hoaxify.constraint.username.NotNull.message}")
 	@Size(min = 4, max = 32)
 	@UniqueUsername
 	private String username;
 	
-	@NotNull
+	@NotNull(message = "{hoaxify.constraint.displayname.password.message}")
 	@Size(min = 4, max = 32)
 	private String displayName;
 	
-	@NotNull
-	@Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*$")
+	@NotNull(message = "{hoaxify.constraint.username.password.message}")
+	@Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*$", message="{hoaxify.constrain.password.Pattern.message}")
 	private String password;
 	
 	

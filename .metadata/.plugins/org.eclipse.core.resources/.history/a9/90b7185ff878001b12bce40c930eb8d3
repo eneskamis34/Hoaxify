@@ -1,0 +1,4 @@
+hoaxify.constraints.username.NotNull.message = "username can not be null"
+hoaxify.constraints.displayName.NotNull.message = "displayName can not be null"
+hoaxify.constraints.password.NotNull.message = "password can not be null"
+hoaxify.constraints.passwordRegex.NotNull.message = "Password must be at least 8 and at most 255 characters"

@@ -1,0 +1,4 @@
+hoaxify.constraints.username.NotNull.message = "kullan\u0131c\u0131 ad\u0131 bo\u015F olamaz"
+hoaxify.constraints.displayName.NotNull.message = "görünen isim bo\u015F olamaz"
+hoaxify.constraints.password.NotNull.message = "\u015Fifre alan\u0131 bo\u015F olamaz"
+hoaxify.constraints.passwordRegex.NotNull.message = "\u015Eifre en az 8 en fazla 255 karakter olabilir."
