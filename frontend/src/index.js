@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import UserSignUpPage from './pages/UserSignUpPage';
+import LoginPage from './pages/LoginPage';
+
+import './i18n';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UserSignUpPage />
+    <LoginPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
